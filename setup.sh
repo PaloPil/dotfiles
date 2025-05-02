@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-config_dir="$(pwd)/config"
-dotfiles=$(ls "$config_dir")
+path="$(pwd)"
 
-for folder in $dotfiles; do
-  ./lib/safe_symlink.sh "$HOME/.config/$folder" "$config_dir/$folder"
+# .CONFIG FOLDER
+for folder in "$path"/config/*; do
+  ./lib/safe_symlink.sh "$HOME/.config/$(basename "$folder")" "$folder"
 done
 
 # KEYD CONFIGURATION
