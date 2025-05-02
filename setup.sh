@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 cd config || (echo "'config' folder not found"; exit)
 
