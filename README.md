@@ -1,5 +1,7 @@
 # dotfiles
 
+My config files to be able to recover it from all of my computers.
+
 ## Setup
 
 To use the config, simply execute the `setup.sh` script:
