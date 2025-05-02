@@ -1,6 +1,4 @@
 if status is-interactive
-    export SHELL=/bin/fish
-
     # Disable fish welcome message
     set fish_greeting ""
 
