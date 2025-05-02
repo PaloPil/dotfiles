@@ -2,15 +2,13 @@
 
 cd config || (echo "'config' folder not found"; exit)
 
-current_dir=$(pwd)
+config_dir=$(pwd)
 
 for folder in *; do
-  rm -rf "$HOME/.config/$folder"
-  ln -s "$current_dir/$folder" "$HOME/.config/$folder"
+  ./lib/safe_symlink.sh "$HOME/.config/$folder" "$config_dir/$folder"
 done
 
 cd ..
 
 # KEYD CONFIGURATION
-rm -rf "/etc/keyd"
-sudo ln -s "$HOME/.config/keyd" "/etc/keyd"
+sudo ./lib/safe_symlink.sh "/etc/keyd" "$HOME/.config/keyd"
