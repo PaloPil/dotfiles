@@ -1,3 +1,6 @@
+[general]
+import = [ "themes/ayu_dark.toml" ]
+
 [terminal]
 shell = "fish"
 
