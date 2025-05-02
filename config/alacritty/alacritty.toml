@@ -1,0 +1,9 @@
+[terminal]
+shell = "fish"
+
+[font]
+size = 11.5 # Default: 11.5
+normal = { family = "JetBrainsMono NFM", style = "Regular" }
+
+[cursor]
+style = { shape = "Beam" }
