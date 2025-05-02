@@ -1,0 +1,1 @@
+source "/home/palopil/.deno/env.fish"
