@@ -13,6 +13,7 @@ alias cl clear
 alias iorgen "~/Documents/git/iorgen/.venv/bin/iorgen"
 alias :q exit
 alias s ls
+alias list-files "find . | fzf"
 
 
 # Utility functions
