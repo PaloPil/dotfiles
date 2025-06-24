@@ -1,5 +1,14 @@
 [alias]
     root = "rev-parse --show-toplevel"
+    s = "status"
+    u = "pull"
+    p = "push"
+    f = "fetch -p"
+    d = "diff"
+    ds = "diff --staged"
+    l = "log"
+    c = "commit"
+    aa = "add -A"
 
 [includeIf "hasconfig:remote.*.url:git@github.com:*"]
     path = "~/.config/git/custom_confs/github"
