@@ -37,7 +37,7 @@ end
 alias kbmemo 'feh ~/Pictures/qwerty-intl-layout.png'
 
 function mkcd
-    mkdir -p $argv && command cd $argv
+    mkdir -p $argv && cd $argv
 end
 
 
