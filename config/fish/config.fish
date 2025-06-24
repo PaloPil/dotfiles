@@ -1,5 +1,6 @@
 if status is-interactive
     export SHELL=$(which fish)
+    export EDITOR=$(which hx)
     
     # Disable fish welcome message
     set fish_greeting ""
