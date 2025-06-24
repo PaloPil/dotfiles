@@ -1,5 +1,5 @@
 [alias]
-    gr = "!echo $(git rev-parse --show-toplevel)"
+    root = "rev-parse --show-toplevel"
 
 [includeIf "hasconfig:remote.*.url:git@github.com:*"]
     path = "~/.config/git/custom_confs/github"
