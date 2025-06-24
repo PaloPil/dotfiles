@@ -14,7 +14,7 @@ alias iorgen "~/Documents/git/iorgen/.venv/bin/iorgen"
 alias :q exit
 alias s ls
 alias list-files "find . | fzf"
-
+alias g git
 
 # Utility functions
 
