@@ -7,7 +7,6 @@
 alias py "python3 -q"
 alias python "python3 -q"
 alias vim hx
-alias vimstp "command vim"
 alias cd z
 alias neofetch fastfetch
 alias cl clear
